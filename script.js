@@ -33,7 +33,7 @@ function pikachu() {
 
 function chamander() {
     nomePokemon.textContent = "Charmander";
-    imagemPokemon.setAttribute("src", "imagens/Charmander.png");
+    imagemPokemon.setAttribute("src", "imagens/charmander.png");
 
     tipoPokemon.textContent = "Tipo: Fogo";
     listaAtaques.innerHTML = `
@@ -69,3 +69,4 @@ function squirtle() {
 btn1.addEventListener("click", pikachu);
 btn2.addEventListener("click", chamander);
 btn3.addEventListener("click", squirtle);
+
